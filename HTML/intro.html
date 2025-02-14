@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProtoSol Learning Html</title>
+
+    <meta name="description"
+        content="Learn HTML with ProtoSol. This tutorial covers headings, paragraphs, lists, links, images, and more.">
+    <meta name="keywords" content="HTML, tutorial, ProtoSol, headings, paragraphs, lists, links, images">
+    <meta name="author" content="ProtoSol">
+</head>
+
+<body>
+
+    <h1>HTML Tutorial</h1>
+
+    <h1> Heading 1 </h1>
+    <h2> Heading 2 </h2>
+    <h3> Heading 3 </h3>
+    <h4> Heading 4 </h4>
+    <h5> Heading 5 </h5>
+    <h6> Heading 6 </h6>
+
+    <hr>
+
+    <!-- There are only 6 levels of headings in HTML. -->
+    <!-- H7 is treated just like normal text. -->
+
+    <p> This is a paragraph. </p>
+    <br>
+    <p> This is another paragraph. </p>
+
+    <!-- <br> is used to break the line. -->
+    <!-- <hr> is similar to <br> but it creates a horizontal line. -->
+    <!-- <p></p> is used to create paragraph. -->
+
+    <p>Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Nobis fugiat sunt libero
+        ipsa officiis reiciendis qui obcaecati voluptate
+        odio. Nulla unde laboriosam officia
+        quos? Accusantium error iusto dolores
+        doloremque explicabo?</p>
+
+    <!-- Lorem ipus is a dummy text used in printing and typesetting industry. -->
+    <!-- Also called Dummy Text. -->
+    <!-- It can also take a number of words or characters to generate the text. -->
+
+    <!-- Lists in HTML -->
+
+    <h2>Lists</h2>
+
+    <!-- ordered list -->
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <!-- unordered list -->
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <!-- Nested List -->
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+                <li>Item 2.3</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <!-- Definition List -->
+
+    <dl>
+        <dt>Item 1</dt>
+        <dd>Definition 1</dd>
+        <dt>Item 2</dt>
+        <dd>Definition 2</dd>
+        <dt>Item 3</dt>
+        <dd>Definition 3</dd>
+    </dl>
+
+    <!-- HTML Links -->
+
+    <h2> 'a' link Tag</h2>
+
+    <a href="https://www.google.com">Google</a>
+
+    It has two types of links:
+    <ol>
+        <li>Internal Links</li>
+        <li>External Links</li>
+    </ol>
+
+    <!-- Internal Links [Hyperlink] - Internal webpages present in the directory -->
+
+    <a href="about.html">About Us</a>
+
+    <!-- External Links [Link] - Not present in the local directory but on website -->
+
+    <a href="https://www.google.com">Google</a>
+
+    <!-- HTML Images -->
+
+    <h2>Images - </h2>
+
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    <br>
+    <img src="/Images/birb.jpg" alt="Nature image" height="200px" width="200px">
+    <br>
+    Image tag also has two types of attributes:
+    <ol>
+        <li> src - Source of the image
+            <ul>
+                <li> Local Directory [Preffered] </li>
+                <li> External Link </li>
+            </ul>
+        </li>
+        <li>alt - provides text when the image is not loaded</li>
+        <li>height - height of the image</li>
+        <li>width - width of the image</li>
+    </ol>
+
+    <!-- Never to use the Google images as the link is super long and the quality is not good. Also the link can become broken -->
+    <!-- Always use the images from the local directory in case the directory of website is changed -->
+
+    <h2>Paragraph attributes - </h2>
+
+    <h3>Title attribute - </h3>
+
+    <p title="This is a title">
+        This is a paragraph with title attribute that acts
+        like tooltip for other developers also the dataminers
+    </p>
+
+    <h3>Style attribute - </h3>
+
+    <p style="color: red; font-size: 20px;">
+        This is a paragraph with style attribute that
+        changes the color and font size of the text.
+    </p>
+
+    <h2>Preformatted Text -</h2>
+
+    <pre>
+        This is a preformatted text.
+
+        It preserves both spaces and line breaks.
+
+        It is useful for displaying code snippets.
+    </pre>
+
+</body>
+
+</html>

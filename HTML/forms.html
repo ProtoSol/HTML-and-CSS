@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProtoSol HTML Forms</title>
+</head>
+
+<body>
+
+    <h1>HTML Forms -></h1>
+    <br>
+    <form>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <!-- Here the type is text, which means the input will only accept text. -->
+        <!-- The id is used to identify the input field. -->
+        <!-- The placeholder is used to show a hint to the user. -->
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <!-- This is also a self closing tab -->
+        <!-- Here the type is email, which means the input will only accept email addresses. -->
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" id="password" placeholder="Enter your password" />
+        <!-- Here the type is password, which means the input will only accept password. -->
+        <br>
+        <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Different Input attributes - </h2>
+
+    <form>
+
+        <!-- Button -->
+        <input type="button" value="Button" />
+        <br>
+        <!-- This makes a button, similar to using button tag. -->
+
+        <!-- Text -->
+        <input type="text" name="Text Box" id="input_text" value="Text" />
+        <br>
+        <!-- This makes a text box, that takes text as input. -->
+
+        <!-- Checkbox -->
+        <input type="checkbox" name="Checkbox" id="input_checkbox" />
+        <br>
+        <!-- This is a checkbox used to make Binary choices. -->
+
+        <!-- Color Picker -->
+        <input type="color" name="Color Picker" id="input_color" />
+        <br>
+        <!-- This is a color picker, used to select color. -->
+
+        <!-- Date Picker -->
+        <input type="date" name="Date Picker" id="input_date" />
+        <br>
+        <!-- This is a date picker, used to select date. -->
+
+        <!-- File Picker -->
+        <input type="file" name="File Picker" id="input_file" />
+        <br>
+        <!-- This is a file picker, used to select file. -->
+
+        <!-- Image -->
+        <input type="image" name="Image" id="input_image"
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+        <br>
+        <!-- This is an image, used to display image. -->
+
+        <!-- Number -->
+        <input type="number" name="Number" id="input_number" />
+        <br>
+        <!-- This is a number input, used to input numbers only. -->
+
+        <!-- Radio Button -->
+        <input type="radio" name="Radio Button" id="input_radio" />
+        <br>
+        <!-- This is a radio button, used to make multiple choices.
+         We need multiple radio buttons, as if this is selected it cannot
+         be unselected until different radio button is chosen.-->
+
+        <!-- Range Slider -->
+        <input type="range" name="Range Slider" id="input_range" />
+        <br>
+        <!-- This is a range slider, used to select a range of values. -->
+
+    </form>
+
+</body>
+
+</html>
