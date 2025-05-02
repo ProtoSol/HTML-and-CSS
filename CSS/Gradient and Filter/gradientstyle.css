@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+    /* To provide Gradient to an image we use */
+
+    /* Linear Gradient */
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
+        url('images/boxbg.jpg'); */
+
+    /* Radial Gradient */
+    background: radial-gradient(circle,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgba(255, 255, 255, 0.5) 100%),
+        url('images/boxbg.jpg');
+
+    /* Conic Gradient */
+    /* background: conic-gradient(
+            rgba(0, 0, 0, 0.5) 0%,
+            rgba(255, 255, 255, 0.5) 100%
+        ),
+        url('images/boxbg.jpg'); */
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* Filters in CSS */
+    /* filter: blur(5px); */
+    /* filter: brightness(0.5); */
+    /* filter: contrast(0.5); */
+    /* filter: drop-shadow(0 0 5px #000); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(100%); */
+    /* filter: opacity(0.5); */
+}

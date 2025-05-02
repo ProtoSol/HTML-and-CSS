@@ -6,3 +6,16 @@ For Images -
 For Refrencing -
 
 1. W3 School - https://www.w3schools.com
+
+For Color -
+
+1. Adobe Color - https://color.adobe.com/
+
+For Fonts -
+
+1. Google Fonts (import fonts without downloading them)
+
+For Styless
+
+1. Grabient - https://grabient.com/
+2. Web Gradient - https://webgradients.com/

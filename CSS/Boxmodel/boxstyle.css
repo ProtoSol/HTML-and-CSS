@@ -1,0 +1,42 @@
+div {
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: aqua; */
+
+    /* Shortcut */
+    /* border: 2px dotted aqua; */
+
+    border-left: 2px solid red;
+
+    /* border-right: 4px solid green;
+    border-top: 1px dashed blue;
+    border-bottom: 3px double yellow; */
+
+    /* padding: 20px; */
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px; */
+
+    padding: 10px 5px;
+
+    text-align: center;
+
+    margin: 20px;
+
+    /* For Images as Backkground */
+    /* To remove the Repeating images */
+    background-repeat: no-repeat;
+    /* repeat-x, repeat-y */
+    /* This creates the problem of Image not covering the box */
+    background-size: cover;
+    /* For specific part */
+    background-position: bottom;
+    /* background-position: 0px 0px; Top; Top-Right etc*/
+    /* To get Parallax effect */
+    background-attachment: fixed;
+    /* We can use Shorthand for background */
+    /* background: url('images/boxbg.jpg') no-repeat fixed center / cover; */
+    /* But this is not preferred as it is not clear */
+}
